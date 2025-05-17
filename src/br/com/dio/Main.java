@@ -177,7 +177,6 @@ public class Main {
         }
     }
 
-
     private static int runUntilGetValidNumber(final int min, final int max){
         var current = scanner.nextInt();
         while (current < min || current > max){
